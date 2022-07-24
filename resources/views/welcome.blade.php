@@ -77,7 +77,7 @@
                     <th scope="col">ID</th>
                     <th scope="col">Email Address</th>
                     <th scope="col">Name</th>
-                    <th scope="col">Bithday</th>
+                    <th scope="col">Birthday</th>
                     <th scope="col">Phone</th>
                     <th scope="col">IP</th>
                     <th scope="col">Country</th>
