@@ -32,9 +32,11 @@ Generate a new application key
 
     php artisan key:generate
 
-Database Connection (**Set the database connection in .env before migrating**)
+Database Connection (**Set the database connection in .env**)
 
 Import data in to "persons" table from "https://drive.google.com/file/d/1uTqJKUZMjQgHNJtXuOdDCpFM3dObjLBU/view?usp=sharing"
+
+Makesure Redis setup (**Set the connection in .env**)
 
 Start the local development server
 
