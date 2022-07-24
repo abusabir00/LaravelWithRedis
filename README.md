@@ -14,7 +14,7 @@
 
 Clone the repository
 
-    git clone https://gitlab.com/abusabir/social_netwark_backend.git
+    git clone https://github.com/abusabir00/LaravelWithRedis.git
 
 Switch to the repo folder
 
@@ -44,7 +44,7 @@ You can now access the server at http://localhost:8000 or http://127.0.0.1:8000/
 
 **TL;DR command list**
 
-    git clone https://gitlab.com/abusabir/social_netwark_backend.git
+    git clone https://github.com/abusabir00/LaravelWithRedis.git
     cd LaravelWithRedis
     composer install
     cp .env.example .env
