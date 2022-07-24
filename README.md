@@ -7,8 +7,53 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+# Getting started
 
+## Installation
+
+
+Clone the repository
+
+    git clone https://gitlab.com/abusabir/social_netwark_backend.git
+
+Switch to the repo folder
+
+    cd LaravelWithRedis
+
+Install all the dependencies using composer
+
+    composer install
+
+Copy the example env file and make the required configuration changes in the .env file
+
+    cp .env.example .env
+
+Generate a new application key
+
+    php artisan key:generate
+
+Database Connection (**Set the database connection in .env before migrating**)
+
+Import data in to "persons" table from "https://drive.google.com/file/d/1uTqJKUZMjQgHNJtXuOdDCpFM3dObjLBU/view?usp=sharing"
+
+Start the local development server
+
+    php artisan serve
+
+You can now access the server at http://localhost:8000 or http://127.0.0.1:8000/
+
+**TL;DR command list**
+
+    git clone https://gitlab.com/abusabir/social_netwark_backend.git
+    cd LaravelWithRedis
+    composer install
+    cp .env.example .env
+    php artisan key:generate
+    
+
+
+
+## About Laravel
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
 - [Simple, fast routing engine](https://laravel.com/docs/routing).
