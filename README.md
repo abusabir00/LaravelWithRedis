@@ -53,7 +53,11 @@ You can now access the server at http://localhost:8000 or http://127.0.0.1:8000/
     php artisan key:generate
     
 
+**Project Screen Play**
 
+<img src="/screen_play/screen1.png" alt="Total Downloads">
+<img src="/screen_play/screen2.png" alt="Total Downloads">
+<img src="/screen_play/screen3.png" alt="Total Downloads">
 
 ## About Laravel
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
