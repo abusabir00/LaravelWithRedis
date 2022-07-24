@@ -56,11 +56,11 @@
             
                 <div class="form-group">
                 <!-- <input type="text" name="year" class="form-control" placeholder="Birth Year"> -->
-                <input type="text" name="year" class="form-control" id="datepicker" placeholder="Birth Year" />
+                <input type="text" name="year" value="{{$year}}" class="form-control" id="datepicker" placeholder="Birth Year" />
                 </div>
                 <div class="form-group">
                 <!-- <input type="text" name="month" class="form-control" placeholder="Birth Month"> -->
-                <input type="text" name="month" class="form-control" id="datepicker1" placeholder="Birth Month" />
+                <input type="text" name="month" value="{{$month}}" class="form-control" id="datepicker1" placeholder="Birth Month" />
                 </div>
                 <button type="submit" class="btn btn-default">Filter</button>
             </form>
@@ -89,7 +89,7 @@
                         <th scope="row">{{ $item->id }}</th>
                         <td>{{ $item->email }}</td>
                         <td>{{ $item->name }}</td>
-                        <td>{{ $item->birthdate }}</td>
+                        <td>{{ date('j F, Y', strtotime($item->birthdate)) }}</td>
                         <td>{{ $item->phone }}</td>
                         <td>{{ $item->ip }}</td>
                         <td>{{ $item->country }}</td>

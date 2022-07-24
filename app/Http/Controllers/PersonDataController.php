@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Services\PersonService;
+use Illuminate\Support\Facades\Session;
 
 class PersonDataController extends Controller
 {
@@ -17,7 +18,7 @@ class PersonDataController extends Controller
         //Data from service
         $data = $person->getPersonsData($request);
         // Return to the blade 
-        return view('welcome',['data' => $data]);
+        return view('welcome',['data' => $data,'year'=>Session::get('year'),'month'=>Session::get('month')]);
     }
 
     /**
