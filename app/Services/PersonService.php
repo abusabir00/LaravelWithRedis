@@ -31,7 +31,7 @@ class PersonService
     $year = Session::get('year');
     $month = Session::get('month');
 
-    // Set data into redies
+    //Database Query & Set data into redies
     $key = $year.'-'.$month;
     if(!Redis::exists($key)){
         $data = Person::query();
